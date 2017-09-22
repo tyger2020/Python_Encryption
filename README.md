@@ -1,0 +1,2 @@
+# Python_Encryption
+This Python code takes a plaintext word and uses alphanumeric characters and an alphabet 'wraparound' algorithm to encrypt strings. Letters are given different numerical values corresponding to their position in the alphabet. Based on the range of this number, the program performs certain operations to it. If it is still &lt;= 26, the program codes the original letter to the alphabet index of the new number. If the number is >= 26, the program 'wraps around' the alphabet until the value is &lt;= 26.
